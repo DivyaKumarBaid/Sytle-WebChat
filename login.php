@@ -17,7 +17,7 @@
 <body>
     <div class="wrapper">
         <section class="form login">
-            <header>Weebo</header>
+            <header>Sytle</header>
             <h2 style="color:white;text-align:center;font-weight:200;font-size:20px">Login</h2>
             <br>
             <form action="#">
