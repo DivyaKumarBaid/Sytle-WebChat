@@ -17,7 +17,7 @@
 <body>
     <div class="wrapper">
         <section class="form signup">
-            <header>Sytes</header>
+            <header>Sytle</header>
             <h2 style="color:white;text-align:center;font-weight:200;font-size:20px">Signup</h2>
             <br>
             <form action="#" enctype="multipart/form-data">
