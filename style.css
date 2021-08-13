@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+.wrapper {
+  background-color: #a2b1b665;
+  backdrop-filter: blur(25px);
+  transition: all 0.5s;
+  border-radius: 16px;
+  box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.3),
+    0 32px 64px -48pc rgba(0, 0, 0, 0.5);
+}
+
+.form {
+  padding: 25px 30px;
+  color: #010c16;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.form header {
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.form input {
+  margin-bottom: 10%;
+  width: 100%;
+  transition: all 0.5s;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 5%;
+
+  border-radius: 50px;
+  background-color: rgba(11, 48, 80, 0.459);
+  border: 1px solid rgba(255, 255, 255, 0);
+  /* backdrop-filter: blur(50px); */
+  text-align: center;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.form input:hover {
+  transform: translateY(-8%);
+  transition: all 0.5s;
+}
+
+input.signupbtn {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(127, 255, 212, 0.795);
+  backdrop-filter: blur(25px);
+  color: #010c16;
+  font-weight: 500;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+div#signupbutton {
+  cursor: pointer;
+  text-align: center;
+}
+
+div#profile label {
+  margin-left: 2%;
+}
+
+div#profile input {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.link a:hover {
+  color: white;
+  transition: all 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.form form .error-txt {
+  transition: all 0.5s;
+  text-align: center;
+  color: rgb(192, 7, 7);
+  font-weight: 300;
+  background-color: rgb(235, 175, 175);
+  border-radius: 30px;
+  padding: 2%;
+  display: none;
+  margin-bottom: 5%;
+}
+h3 {
+  text-align: center;
+  color: white;
+}
