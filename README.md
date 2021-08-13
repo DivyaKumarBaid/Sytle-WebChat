@@ -6,11 +6,14 @@
 
 This is a simple web-based chat system build using php , mysql and jQuery.<br>
 
-```To run this on a standalone machine you need to have a local webserver and a database <br> For more info visit```[GeeksforGeeks](https://www.geeksforgeeks.org/how-to-execute-php-script-in-website-using-xampp-webserver/?ref=rp)
+```To run this on a standalone machine you need to have a local webserver and a database <br> For more info visit[GeeksforGeeks](https://www.geeksforgeeks.org/how-to-execute-php-script-in-website-using-xampp-webserver/?ref=rp)```
 
-#Link
+## Link
 ---
 To visit click [here](https://stylechatservice.000webhostapp.com/login.php)
+
+## MySQL :
+I have exported the Data base as import.sql so use it by importing it in your mysql.
 
 ## Pre-Text:
 
