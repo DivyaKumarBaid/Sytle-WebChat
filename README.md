@@ -14,7 +14,7 @@ To visit click [here](https://stylechatservice.000webhostapp.com/login.php)
 
 ## Pre-Text:
 
-I did host this on 000webhost which is lags a bit. This basically uses php and Mysql to store the chat logs.
+I did host this on 000webhost which lags a bit. This basically uses php and Mysql to store the chat logs.
 
 ## Installation of Webserver and database to run php File
 
